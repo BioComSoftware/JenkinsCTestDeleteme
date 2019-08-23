@@ -1,0 +1,31 @@
+/*
+ ============================================================================
+ Name        : NumberLetterCounts.c
+ Author      : rightmirem
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <unistd.h>
+
+#define False 0
+#define True !False
+#define OMEGA ('Z' - 'A')
+
+//struct timespec {
+//           time_t tv_sec;        /* seconds */
+//           long   tv_nsec;       /* nanoseconds */
+//       };
+
+int main(void) {
+	char string[] = "This is a test";
+	char c;
+	do { printf("%c", c); }
+	} while(c)
+	return EXIT_SUCCESS;
+}

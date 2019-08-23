@@ -1,0 +1,40 @@
+/*
+ ============================================================================
+ Name        : NumberLetterCounts.c
+ Author      : rightmirem
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <unistd.h>
+
+#define False 0
+#define True !False
+#define OMEGA ('Z' - 'A')
+
+int main(void) {
+	int done;
+	long int r;
+	char alpha;
+	int count = 0;
+	for(int i=0; i<1000; i++) {
+		done=False;
+		srandom((unsigned)time(NULL));
+		while(!done){
+			r = random() % OMEGA;
+			alpha = 'A' + (char)r;
+			if(alpha=='Q' && count > 8) done=True;
+			putchar(alpha);
+			count += 1;
+		}
+		printf("(%d)\n", i, alpha);
+
+//	putchar('\n');
+	}
+	return EXIT_SUCCESS;
+}

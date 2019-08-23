@@ -1,0 +1,15 @@
+20:54:57 **** Build of configuration Debug for project ProjectEulerC ****
+make all 
+Building file: ../src/ProjectEulerC.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ProjectEulerC.d" -MT"src/ProjectEulerC.o" -o "src/ProjectEulerC.o" "../src/ProjectEulerC.c"
+Finished building: ../src/ProjectEulerC.c
+ 
+Building target: ProjectEulerC
+Invoking: Cross GCC Linker
+gcc  -o "ProjectEulerC"  ./src/ProjectEulerC.o   
+Finished building target: ProjectEulerC
+ 
+
+20:54:58 Build Finished (took 930ms)
+

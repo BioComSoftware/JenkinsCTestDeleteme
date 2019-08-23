@@ -1,0 +1,23 @@
+/*
+ ============================================================================
+ Name        : NumberLetterCounts.c
+ Author      : rightmirem
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int main() {
+		char ch;
+		puts("Press ~ and Enter to stop");
+		while(ch !='~'){
+			ch=getchar();
+		}
+	}
+	return EXIT_SUCCESS;
+}

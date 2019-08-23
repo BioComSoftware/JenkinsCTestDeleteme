@@ -1,0 +1,3214 @@
+15:46:20 **** Build of configuration Debug for project PowerDigitSum ****
+make all 
+Building file: ../src/PowerDigitSum.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PowerDigitSum.d" -MT"src/PowerDigitSum.o" -o "src/PowerDigitSum.o" "../src/PowerDigitSum.c"
+In file included from ../src/PowerDigitSum.c:15:
+../src/../../c-library/include/addViaStrings.h:10:16: warning: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)' [-Wimplicit-function-declaration]
+        int length1 = strlen(s1);
+                      ^
+../src/../../c-library/include/addViaStrings.h:10:16: note: include the header <string.h> or explicitly provide a declaration for 'strlen'
+../src/../../c-library/include/addViaStrings.h:85:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/../../c-library/include/addViaStrings.h:89:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/PowerDigitSum.c:26:14: warning: implicit declaration of function 'addNumericStrings' is invalid in C99 [-Wimplicit-function-declaration]
+        char *sum = addNumericStrings(&s1, &s2);
+                    ^
+../src/PowerDigitSum.c:26:8: warning: incompatible integer to pointer conversion initializing 'char *' with an expression of type 'int' [-Wint-conversion]
+        char *sum = addNumericStrings(&s1, &s2);
+              ^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/PowerDigitSum.c:29:6: warning: incompatible integer to pointer conversion assigning to 'char *' from 'int' [-Wint-conversion]
+        sum = addNumericStrings(&s1, &s2);
+            ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/PowerDigitSum.c:20:6: warning: unused variable 'p' [-Wunused-variable]
+        int p = 1000;
+            ^
+7 warnings generated.
+Finished building: ../src/PowerDigitSum.c
+ 
+Building target: PowerDigitSum
+Invoking: Cross GCC Linker
+gcc  -o "PowerDigitSum"  ./src/PowerDigitSum.o   
+Undefined symbols for architecture x86_64:
+  "_addNumericStrings", referenced from:
+      _main in PowerDigitSum.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [PowerDigitSum] Error 1
+15:46:57 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+15:46:58 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+15:46:58 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+15:46:59 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+15:46:59 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+15:47:00 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+Building file: ../src/PowerDigitSum.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PowerDigitSum.d" -MT"src/PowerDigitSum.o" -o "src/PowerDigitSum.o" "../src/PowerDigitSum.c"
+In file included from ../src/PowerDigitSum.c:15:
+../src/../../c-library/include/addViaStrings.h:10:16: warning: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)' [-Wimplicit-function-declaration]
+        int length1 = strlen(s1);
+                      ^
+../src/../../c-library/include/addViaStrings.h:10:16: note: include the header <string.h> or explicitly provide a declaration for 'strlen'
+../src/../../c-library/include/addViaStrings.h:85:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/../../c-library/include/addViaStrings.h:89:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/PowerDigitSum.c:25:31: warning: incompatible pointer types passing 'char (*)[51]' to parameter of type 'char *' [-Wincompatible-pointer-types]
+        char *sum = addIntsAsStrings(&s1, &s2);
+                                     ^~~
+../src/../../c-library/include/addViaStrings.h:8:30: note: passing argument to parameter 's1' here
+char* addIntsAsStrings(char *s1, char *s2){
+                             ^
+../src/PowerDigitSum.c:25:36: warning: incompatible pointer types passing 'char (*)[51]' to parameter of type 'char *' [-Wincompatible-pointer-types]
+        char *sum = addIntsAsStrings(&s1, &s2);
+                                          ^~~
+../src/../../c-library/include/addViaStrings.h:8:40: note: passing argument to parameter 's2' here
+char* addIntsAsStrings(char *s1, char *s2){
+                                       ^
+../src/PowerDigitSum.c:30:25: warning: incompatible pointer types passing 'char (*)[15]' to parameter of type 'char *' [-Wincompatible-pointer-types]
+        sum = addIntsAsStrings(&s3, &s4);
+                               ^~~
+../src/../../c-library/include/addViaStrings.h:8:30: note: passing argument to parameter 's1' here
+char* addIntsAsStrings(char *s1, char *s2){
+                             ^
+../src/PowerDigitSum.c:30:30: warning: incompatible pointer types passing 'char (*)[15]' to parameter of type 'char *' [-Wincompatible-pointer-types]
+        sum = addIntsAsStrings(&s3, &s4);
+                                    ^~~
+../src/../../c-library/include/addViaStrings.h:8:40: note: passing argument to parameter 's2' here
+char* addIntsAsStrings(char *s1, char *s2){
+                                       ^
+../src/PowerDigitSum.c:20:6: warning: unused variable 'p' [-Wunused-variable]
+        int p = 1000;
+            ^
+8 warnings generated.
+Finished building: ../src/PowerDigitSum.c
+ 
+Building target: PowerDigitSum
+Invoking: Cross GCC Linker
+gcc  -o "PowerDigitSum"  ./src/PowerDigitSum.o   
+Finished building target: PowerDigitSum
+ 
+15:47:00 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+15:47:32 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+15:47:32 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+15:47:33 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+15:47:33 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+15:47:34 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+15:47:34 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+Building file: ../src/PowerDigitSum.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PowerDigitSum.d" -MT"src/PowerDigitSum.o" -o "src/PowerDigitSum.o" "../src/PowerDigitSum.c"
+In file included from ../src/PowerDigitSum.c:15:
+../src/../../c-library/include/addViaStrings.h:10:16: warning: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)' [-Wimplicit-function-declaration]
+        int length1 = strlen(s1);
+                      ^
+../src/../../c-library/include/addViaStrings.h:10:16: note: include the header <string.h> or explicitly provide a declaration for 'strlen'
+../src/../../c-library/include/addViaStrings.h:85:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/../../c-library/include/addViaStrings.h:89:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/PowerDigitSum.c:25:31: warning: incompatible pointer types passing 'char (*)[51]' to parameter of type 'char *' [-Wincompatible-pointer-types]
+        char *sum = addIntsAsStrings(&s1, &s2);
+                                     ^~~
+../src/../../c-library/include/addViaStrings.h:8:30: note: passing argument to parameter 's1' here
+char* addIntsAsStrings(char *s1, char *s2){
+                             ^
+../src/PowerDigitSum.c:25:36: warning: incompatible pointer types passing 'char (*)[51]' to parameter of type 'char *' [-Wincompatible-pointer-types]
+        char *sum = addIntsAsStrings(&s1, &s2);
+                                          ^~~
+../src/../../c-library/include/addViaStrings.h:8:40: note: passing argument to parameter 's2' here
+char* addIntsAsStrings(char *s1, char *s2){
+                                       ^
+../src/PowerDigitSum.c:30:25: warning: incompatible pointer types passing 'char (*)[15]' to parameter of type 'char *' [-Wincompatible-pointer-types]
+        sum = addIntsAsStrings(&s3, &s4);
+                               ^~~
+../src/../../c-library/include/addViaStrings.h:8:30: note: passing argument to parameter 's1' here
+char* addIntsAsStrings(char *s1, char *s2){
+                             ^
+../src/PowerDigitSum.c:30:30: warning: incompatible pointer types passing 'char (*)[15]' to parameter of type 'char *' [-Wincompatible-pointer-types]
+        sum = addIntsAsStrings(&s3, &s4);
+                                    ^~~
+../src/../../c-library/include/addViaStrings.h:8:40: note: passing argument to parameter 's2' here
+char* addIntsAsStrings(char *s1, char *s2){
+                                       ^
+../src/PowerDigitSum.c:33:2: warning: implicitly declaring library function 'strcpy' with type 'char *(char *, const char *)' [-Wimplicit-function-declaration]
+        strcpy(sum, "2");
+        ^
+../src/PowerDigitSum.c:33:2: note: include the header <string.h> or explicitly provide a declaration for 'strcpy'
+../src/PowerDigitSum.c:35:14: warning: implicit declaration of function 'addNumericStrings' is invalid in C99 [-Wimplicit-function-declaration]
+        strcpy(sum, addNumericStrings(&sum, &sum));
+                    ^
+../src/PowerDigitSum.c:35:14: warning: incompatible integer to pointer conversion passing 'int' to parameter of type 'const char *' [-Wint-conversion]
+        strcpy(sum, addNumericStrings(&sum, &sum));
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/PowerDigitSum.c:20:6: warning: unused variable 'p' [-Wunused-variable]
+        int p = 1000;
+            ^
+11 warnings generated.
+Finished building: ../src/PowerDigitSum.c
+ 
+Building target: PowerDigitSum
+Invoking: Cross GCC Linker
+gcc  -o "PowerDigitSum"  ./src/PowerDigitSum.o   
+Undefined symbols for architecture x86_64:
+  "_addNumericStrings", referenced from:
+      _main in PowerDigitSum.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [PowerDigitSum] Error 1
+15:47:35 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+15:48:32 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+15:48:33 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+15:48:33 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+15:48:34 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+15:48:34 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+15:48:35 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+Building file: ../src/PowerDigitSum.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PowerDigitSum.d" -MT"src/PowerDigitSum.o" -o "src/PowerDigitSum.o" "../src/PowerDigitSum.c"
+In file included from ../src/PowerDigitSum.c:15:
+../src/../../c-library/include/addViaStrings.h:10:16: warning: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)' [-Wimplicit-function-declaration]
+        int length1 = strlen(s1);
+                      ^
+../src/../../c-library/include/addViaStrings.h:10:16: note: include the header <string.h> or explicitly provide a declaration for 'strlen'
+../src/../../c-library/include/addViaStrings.h:85:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/../../c-library/include/addViaStrings.h:89:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/PowerDigitSum.c:27:25: warning: incompatible pointer types passing 'char (*)[51]' to parameter of type 'char *' [-Wincompatible-pointer-types]
+        sum = addIntsAsStrings(&s1, &s2);
+                               ^~~
+../src/../../c-library/include/addViaStrings.h:8:30: note: passing argument to parameter 's1' here
+char* addIntsAsStrings(char *s1, char *s2){
+                             ^
+../src/PowerDigitSum.c:27:30: warning: incompatible pointer types passing 'char (*)[51]' to parameter of type 'char *' [-Wincompatible-pointer-types]
+        sum = addIntsAsStrings(&s1, &s2);
+                                    ^~~
+../src/../../c-library/include/addViaStrings.h:8:40: note: passing argument to parameter 's2' here
+char* addIntsAsStrings(char *s1, char *s2){
+                                       ^
+../src/PowerDigitSum.c:20:6: warning: unused variable 'p' [-Wunused-variable]
+        int p = 1000;
+            ^
+6 warnings generated.
+Finished building: ../src/PowerDigitSum.c
+ 
+Building target: PowerDigitSum
+Invoking: Cross GCC Linker
+gcc  -o "PowerDigitSum"  ./src/PowerDigitSum.o   
+Finished building target: PowerDigitSum
+ 
+15:48:35 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+15:48:50 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+15:48:51 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+15:48:51 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+15:48:52 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+15:48:52 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+15:48:53 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+Building file: ../src/PowerDigitSum.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PowerDigitSum.d" -MT"src/PowerDigitSum.o" -o "src/PowerDigitSum.o" "../src/PowerDigitSum.c"
+In file included from ../src/PowerDigitSum.c:15:
+../src/../../c-library/include/addViaStrings.h:10:16: warning: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)' [-Wimplicit-function-declaration]
+        int length1 = strlen(s1);
+                      ^
+../src/../../c-library/include/addViaStrings.h:10:16: note: include the header <string.h> or explicitly provide a declaration for 'strlen'
+../src/../../c-library/include/addViaStrings.h:85:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/../../c-library/include/addViaStrings.h:89:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/PowerDigitSum.c:27:25: warning: incompatible pointer types passing 'char (*)[51]' to parameter of type 'char *' [-Wincompatible-pointer-types]
+        sum = addIntsAsStrings(&s1, &s2);
+                               ^~~
+../src/../../c-library/include/addViaStrings.h:8:30: note: passing argument to parameter 's1' here
+char* addIntsAsStrings(char *s1, char *s2){
+                             ^
+../src/PowerDigitSum.c:27:30: warning: incompatible pointer types passing 'char (*)[51]' to parameter of type 'char *' [-Wincompatible-pointer-types]
+        sum = addIntsAsStrings(&s1, &s2);
+                                    ^~~
+../src/../../c-library/include/addViaStrings.h:8:40: note: passing argument to parameter 's2' here
+char* addIntsAsStrings(char *s1, char *s2){
+                                       ^
+../src/PowerDigitSum.c:30:2: warning: implicitly declaring library function 'strcpy' with type 'char *(char *, const char *)' [-Wimplicit-function-declaration]
+        strcpy(sum, "2");
+        ^
+../src/PowerDigitSum.c:30:2: note: include the header <string.h> or explicitly provide a declaration for 'strcpy'
+../src/PowerDigitSum.c:20:6: warning: unused variable 'p' [-Wunused-variable]
+        int p = 1000;
+            ^
+7 warnings generated.
+Finished building: ../src/PowerDigitSum.c
+ 
+Building target: PowerDigitSum
+Invoking: Cross GCC Linker
+gcc  -o "PowerDigitSum"  ./src/PowerDigitSum.o   
+Finished building target: PowerDigitSum
+ 
+15:48:53 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+15:49:10 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+15:49:10 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+15:49:11 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+15:49:11 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+15:49:12 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+15:49:12 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+Building file: ../src/PowerDigitSum.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PowerDigitSum.d" -MT"src/PowerDigitSum.o" -o "src/PowerDigitSum.o" "../src/PowerDigitSum.c"
+In file included from ../src/PowerDigitSum.c:15:
+../src/../../c-library/include/addViaStrings.h:10:16: warning: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)' [-Wimplicit-function-declaration]
+        int length1 = strlen(s1);
+                      ^
+../src/../../c-library/include/addViaStrings.h:10:16: note: include the header <string.h> or explicitly provide a declaration for 'strlen'
+../src/../../c-library/include/addViaStrings.h:85:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/../../c-library/include/addViaStrings.h:89:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/PowerDigitSum.c:27:25: warning: incompatible pointer types passing 'char (*)[51]' to parameter of type 'char *' [-Wincompatible-pointer-types]
+        sum = addIntsAsStrings(&s1, &s2);
+                               ^~~
+../src/../../c-library/include/addViaStrings.h:8:30: note: passing argument to parameter 's1' here
+char* addIntsAsStrings(char *s1, char *s2){
+                             ^
+../src/PowerDigitSum.c:27:30: warning: incompatible pointer types passing 'char (*)[51]' to parameter of type 'char *' [-Wincompatible-pointer-types]
+        sum = addIntsAsStrings(&s1, &s2);
+                                    ^~~
+../src/../../c-library/include/addViaStrings.h:8:40: note: passing argument to parameter 's2' here
+char* addIntsAsStrings(char *s1, char *s2){
+                                       ^
+../src/PowerDigitSum.c:30:2: warning: implicitly declaring library function 'strcpy' with type 'char *(char *, const char *)' [-Wimplicit-function-declaration]
+        strcpy(sum, "2");
+        ^
+../src/PowerDigitSum.c:30:2: note: include the header <string.h> or explicitly provide a declaration for 'strcpy'
+../src/PowerDigitSum.c:32:14: warning: implicit declaration of function 'addNumericStrings' is invalid in C99 [-Wimplicit-function-declaration]
+        strcpy(sum, addNumericStrings(sum, sum));
+                    ^
+../src/PowerDigitSum.c:32:14: warning: incompatible integer to pointer conversion passing 'int' to parameter of type 'const char *' [-Wint-conversion]
+        strcpy(sum, addNumericStrings(sum, sum));
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/PowerDigitSum.c:20:6: warning: unused variable 'p' [-Wunused-variable]
+        int p = 1000;
+            ^
+9 warnings generated.
+Finished building: ../src/PowerDigitSum.c
+ 
+Building target: PowerDigitSum
+Invoking: Cross GCC Linker
+gcc  -o "PowerDigitSum"  ./src/PowerDigitSum.o   
+Undefined symbols for architecture x86_64:
+  "_addNumericStrings", referenced from:
+      _main in PowerDigitSum.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [PowerDigitSum] Error 1
+15:49:13 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+15:49:35 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+15:49:36 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+15:49:36 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+15:49:37 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+15:49:37 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+15:49:38 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+Building file: ../src/PowerDigitSum.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PowerDigitSum.d" -MT"src/PowerDigitSum.o" -o "src/PowerDigitSum.o" "../src/PowerDigitSum.c"
+In file included from ../src/PowerDigitSum.c:15:
+../src/../../c-library/include/addViaStrings.h:10:16: warning: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)' [-Wimplicit-function-declaration]
+        int length1 = strlen(s1);
+                      ^
+../src/../../c-library/include/addViaStrings.h:10:16: note: include the header <string.h> or explicitly provide a declaration for 'strlen'
+../src/../../c-library/include/addViaStrings.h:85:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/../../c-library/include/addViaStrings.h:89:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/PowerDigitSum.c:27:25: warning: incompatible pointer types passing 'char (*)[51]' to parameter of type 'char *' [-Wincompatible-pointer-types]
+        sum = addIntsAsStrings(&s1, &s2);
+                               ^~~
+../src/../../c-library/include/addViaStrings.h:8:30: note: passing argument to parameter 's1' here
+char* addIntsAsStrings(char *s1, char *s2){
+                             ^
+../src/PowerDigitSum.c:27:30: warning: incompatible pointer types passing 'char (*)[51]' to parameter of type 'char *' [-Wincompatible-pointer-types]
+        sum = addIntsAsStrings(&s1, &s2);
+                                    ^~~
+../src/../../c-library/include/addViaStrings.h:8:40: note: passing argument to parameter 's2' here
+char* addIntsAsStrings(char *s1, char *s2){
+                                       ^
+../src/PowerDigitSum.c:30:2: warning: implicitly declaring library function 'strcpy' with type 'char *(char *, const char *)' [-Wimplicit-function-declaration]
+        strcpy(sum, "2");
+        ^
+../src/PowerDigitSum.c:30:2: note: include the header <string.h> or explicitly provide a declaration for 'strcpy'
+../src/PowerDigitSum.c:32:14: warning: implicit declaration of function 'addNumericStrings' is invalid in C99 [-Wimplicit-function-declaration]
+        strcpy(sum, addNumericStrings(&sum, &sum));
+                    ^
+../src/PowerDigitSum.c:32:14: warning: incompatible integer to pointer conversion passing 'int' to parameter of type 'const char *' [-Wint-conversion]
+        strcpy(sum, addNumericStrings(&sum, &sum));
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/PowerDigitSum.c:20:6: warning: unused variable 'p' [-Wunused-variable]
+        int p = 1000;
+            ^
+9 warnings generated.
+Finished building: ../src/PowerDigitSum.c
+ 
+Building target: PowerDigitSum
+Invoking: Cross GCC Linker
+gcc  -o "PowerDigitSum"  ./src/PowerDigitSum.o   
+Undefined symbols for architecture x86_64:
+  "_addNumericStrings", referenced from:
+      _main in PowerDigitSum.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [PowerDigitSum] Error 1
+15:49:38 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+15:50:40 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+15:50:40 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+15:50:41 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+15:50:41 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+15:50:41 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+15:50:42 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+Building file: ../src/PowerDigitSum.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PowerDigitSum.d" -MT"src/PowerDigitSum.o" -o "src/PowerDigitSum.o" "../src/PowerDigitSum.c"
+In file included from ../src/PowerDigitSum.c:15:
+../src/../../c-library/include/addViaStrings.h:10:16: warning: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)' [-Wimplicit-function-declaration]
+        int length1 = strlen(s1);
+                      ^
+../src/../../c-library/include/addViaStrings.h:10:16: note: include the header <string.h> or explicitly provide a declaration for 'strlen'
+../src/../../c-library/include/addViaStrings.h:85:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/../../c-library/include/addViaStrings.h:89:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/PowerDigitSum.c:27:25: warning: incompatible pointer types passing 'char (*)[51]' to parameter of type 'char *' [-Wincompatible-pointer-types]
+        sum = addIntsAsStrings(&s1, &s2);
+                               ^~~
+../src/../../c-library/include/addViaStrings.h:8:30: note: passing argument to parameter 's1' here
+char* addIntsAsStrings(char *s1, char *s2){
+                             ^
+../src/PowerDigitSum.c:27:30: warning: incompatible pointer types passing 'char (*)[51]' to parameter of type 'char *' [-Wincompatible-pointer-types]
+        sum = addIntsAsStrings(&s1, &s2);
+                                    ^~~
+../src/../../c-library/include/addViaStrings.h:8:40: note: passing argument to parameter 's2' here
+char* addIntsAsStrings(char *s1, char *s2){
+                                       ^
+../src/PowerDigitSum.c:20:6: warning: unused variable 'p' [-Wunused-variable]
+        int p = 1000;
+            ^
+6 warnings generated.
+Finished building: ../src/PowerDigitSum.c
+ 
+Building target: PowerDigitSum
+Invoking: Cross GCC Linker
+gcc  -o "PowerDigitSum"  ./src/PowerDigitSum.o   
+Finished building target: PowerDigitSum
+ 
+15:50:43 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+15:50:57 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+15:50:57 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+15:50:58 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+15:50:58 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+15:50:59 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+15:50:59 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+Building file: ../src/PowerDigitSum.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PowerDigitSum.d" -MT"src/PowerDigitSum.o" -o "src/PowerDigitSum.o" "../src/PowerDigitSum.c"
+In file included from ../src/PowerDigitSum.c:15:
+../src/../../c-library/include/addViaStrings.h:10:16: warning: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)' [-Wimplicit-function-declaration]
+        int length1 = strlen(s1);
+                      ^
+../src/../../c-library/include/addViaStrings.h:10:16: note: include the header <string.h> or explicitly provide a declaration for 'strlen'
+../src/../../c-library/include/addViaStrings.h:85:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/../../c-library/include/addViaStrings.h:89:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/PowerDigitSum.c:27:25: warning: incompatible pointer types passing 'char **' to parameter of type 'char *'; remove & [-Wincompatible-pointer-types]
+        sum = addIntsAsStrings(&s1, &s2);
+                               ^~~
+../src/../../c-library/include/addViaStrings.h:8:30: note: passing argument to parameter 's1' here
+char* addIntsAsStrings(char *s1, char *s2){
+                             ^
+../src/PowerDigitSum.c:27:30: warning: incompatible pointer types passing 'char **' to parameter of type 'char *'; remove & [-Wincompatible-pointer-types]
+        sum = addIntsAsStrings(&s1, &s2);
+                                    ^~~
+../src/../../c-library/include/addViaStrings.h:8:40: note: passing argument to parameter 's2' here
+char* addIntsAsStrings(char *s1, char *s2){
+                                       ^
+../src/PowerDigitSum.c:20:6: warning: unused variable 'p' [-Wunused-variable]
+        int p = 1000;
+            ^
+6 warnings generated.
+Finished building: ../src/PowerDigitSum.c
+ 
+Building target: PowerDigitSum
+Invoking: Cross GCC Linker
+gcc  -o "PowerDigitSum"  ./src/PowerDigitSum.o   
+Finished building target: PowerDigitSum
+ 
+15:51:00 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+15:51:12 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+15:51:13 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+15:51:13 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+15:51:14 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+15:51:14 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+15:51:15 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+Building file: ../src/PowerDigitSum.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PowerDigitSum.d" -MT"src/PowerDigitSum.o" -o "src/PowerDigitSum.o" "../src/PowerDigitSum.c"
+In file included from ../src/PowerDigitSum.c:15:
+../src/../../c-library/include/addViaStrings.h:10:16: warning: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)' [-Wimplicit-function-declaration]
+        int length1 = strlen(s1);
+                      ^
+../src/../../c-library/include/addViaStrings.h:10:16: note: include the header <string.h> or explicitly provide a declaration for 'strlen'
+../src/../../c-library/include/addViaStrings.h:85:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/../../c-library/include/addViaStrings.h:89:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/PowerDigitSum.c:20:6: warning: unused variable 'p' [-Wunused-variable]
+        int p = 1000;
+            ^
+4 warnings generated.
+Finished building: ../src/PowerDigitSum.c
+ 
+Building target: PowerDigitSum
+Invoking: Cross GCC Linker
+gcc  -o "PowerDigitSum"  ./src/PowerDigitSum.o   
+Finished building target: PowerDigitSum
+ 
+15:51:15 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+15:51:41 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+15:51:42 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+15:51:42 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+15:51:43 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+15:51:43 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+15:51:44 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+Building file: ../src/PowerDigitSum.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PowerDigitSum.d" -MT"src/PowerDigitSum.o" -o "src/PowerDigitSum.o" "../src/PowerDigitSum.c"
+In file included from ../src/PowerDigitSum.c:15:
+../src/../../c-library/include/addViaStrings.h:10:16: warning: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)' [-Wimplicit-function-declaration]
+        int length1 = strlen(s1);
+                      ^
+../src/../../c-library/include/addViaStrings.h:10:16: note: include the header <string.h> or explicitly provide a declaration for 'strlen'
+../src/../../c-library/include/addViaStrings.h:85:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/../../c-library/include/addViaStrings.h:89:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/PowerDigitSum.c:20:6: warning: unused variable 'p' [-Wunused-variable]
+        int p = 1000;
+            ^
+4 warnings generated.
+Finished building: ../src/PowerDigitSum.c
+ 
+Building target: PowerDigitSum
+Invoking: Cross GCC Linker
+gcc  -o "PowerDigitSum"  ./src/PowerDigitSum.o   
+Finished building target: PowerDigitSum
+ 
+15:51:44 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+15:52:31 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+15:52:31 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+15:52:32 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+15:52:32 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+15:52:33 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+15:52:33 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+Building file: ../src/PowerDigitSum.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PowerDigitSum.d" -MT"src/PowerDigitSum.o" -o "src/PowerDigitSum.o" "../src/PowerDigitSum.c"
+In file included from ../src/PowerDigitSum.c:15:
+../src/../../c-library/include/addViaStrings.h:10:16: warning: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)' [-Wimplicit-function-declaration]
+        int length1 = strlen(s1);
+                      ^
+../src/../../c-library/include/addViaStrings.h:10:16: note: include the header <string.h> or explicitly provide a declaration for 'strlen'
+../src/../../c-library/include/addViaStrings.h:85:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/../../c-library/include/addViaStrings.h:89:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/PowerDigitSum.c:20:6: warning: unused variable 'p' [-Wunused-variable]
+        int p = 1000;
+            ^
+4 warnings generated.
+Finished building: ../src/PowerDigitSum.c
+ 
+Building target: PowerDigitSum
+Invoking: Cross GCC Linker
+gcc  -o "PowerDigitSum"  ./src/PowerDigitSum.o   
+Finished building target: PowerDigitSum
+ 
+15:52:34 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+15:54:35 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+15:54:36 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+15:54:36 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+15:54:37 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+15:54:37 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+15:54:38 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+Building file: ../src/PowerDigitSum.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PowerDigitSum.d" -MT"src/PowerDigitSum.o" -o "src/PowerDigitSum.o" "../src/PowerDigitSum.c"
+In file included from ../src/PowerDigitSum.c:15:
+../src/../../c-library/include/addViaStrings.h:10:16: warning: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)' [-Wimplicit-function-declaration]
+        int length1 = strlen(s1);
+                      ^
+../src/../../c-library/include/addViaStrings.h:10:16: note: include the header <string.h> or explicitly provide a declaration for 'strlen'
+../src/../../c-library/include/addViaStrings.h:85:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/../../c-library/include/addViaStrings.h:89:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+3 warnings generated.
+Finished building: ../src/PowerDigitSum.c
+ 
+Building target: PowerDigitSum
+Invoking: Cross GCC Linker
+gcc  -o "PowerDigitSum"  ./src/PowerDigitSum.o   
+Finished building target: PowerDigitSum
+ 
+15:54:38 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+15:55:19 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+15:55:19 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+15:55:20 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+15:55:20 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+15:55:21 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+15:55:21 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+Building file: ../src/PowerDigitSum.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PowerDigitSum.d" -MT"src/PowerDigitSum.o" -o "src/PowerDigitSum.o" "../src/PowerDigitSum.c"
+In file included from ../src/PowerDigitSum.c:15:
+../src/../../c-library/include/addViaStrings.h:10:16: warning: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)' [-Wimplicit-function-declaration]
+        int length1 = strlen(s1);
+                      ^
+../src/../../c-library/include/addViaStrings.h:10:16: note: include the header <string.h> or explicitly provide a declaration for 'strlen'
+../src/../../c-library/include/addViaStrings.h:85:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/../../c-library/include/addViaStrings.h:89:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/PowerDigitSum.c:26:8: warning: incompatible integer to pointer conversion initializing 'char *' with an expression of type 'int' [-Wint-conversion]
+        char *sum = 2;
+              ^     ~
+../src/PowerDigitSum.c:23:8: warning: unused variable 's1' [-Wunused-variable]
+        char *s1 = "1";
+              ^
+../src/PowerDigitSum.c:24:8: warning: unused variable 's2' [-Wunused-variable]
+        char *s2 = "1";
+              ^
+6 warnings generated.
+Finished building: ../src/PowerDigitSum.c
+ 
+Building target: PowerDigitSum
+Invoking: Cross GCC Linker
+gcc  -o "PowerDigitSum"  ./src/PowerDigitSum.o   
+Finished building target: PowerDigitSum
+ 
+15:55:22 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+15:55:36 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+15:55:37 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+15:55:37 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+15:55:38 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+15:55:38 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+15:55:39 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+Building file: ../src/PowerDigitSum.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PowerDigitSum.d" -MT"src/PowerDigitSum.o" -o "src/PowerDigitSum.o" "../src/PowerDigitSum.c"
+In file included from ../src/PowerDigitSum.c:15:
+../src/../../c-library/include/addViaStrings.h:10:16: warning: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)' [-Wimplicit-function-declaration]
+        int length1 = strlen(s1);
+                      ^
+../src/../../c-library/include/addViaStrings.h:10:16: note: include the header <string.h> or explicitly provide a declaration for 'strlen'
+../src/../../c-library/include/addViaStrings.h:85:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/../../c-library/include/addViaStrings.h:89:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/PowerDigitSum.c:27:6: warning: incompatible integer to pointer conversion assigning to 'char *' from 'int' [-Wint-conversion]
+        sum = 2;
+            ^ ~
+../src/PowerDigitSum.c:23:8: warning: unused variable 's1' [-Wunused-variable]
+        char *s1 = "1";
+              ^
+../src/PowerDigitSum.c:24:8: warning: unused variable 's2' [-Wunused-variable]
+        char *s2 = "1";
+              ^
+6 warnings generated.
+Finished building: ../src/PowerDigitSum.c
+ 
+Building target: PowerDigitSum
+Invoking: Cross GCC Linker
+gcc  -o "PowerDigitSum"  ./src/PowerDigitSum.o   
+Finished building target: PowerDigitSum
+ 
+15:55:39 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+15:55:52 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+15:55:53 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+15:55:53 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+15:55:54 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+15:55:54 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+15:55:55 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+Building file: ../src/PowerDigitSum.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PowerDigitSum.d" -MT"src/PowerDigitSum.o" -o "src/PowerDigitSum.o" "../src/PowerDigitSum.c"
+In file included from ../src/PowerDigitSum.c:15:
+../src/../../c-library/include/addViaStrings.h:10:16: warning: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)' [-Wimplicit-function-declaration]
+        int length1 = strlen(s1);
+                      ^
+../src/../../c-library/include/addViaStrings.h:10:16: note: include the header <string.h> or explicitly provide a declaration for 'strlen'
+../src/../../c-library/include/addViaStrings.h:85:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/../../c-library/include/addViaStrings.h:89:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+3 warnings generated.
+Finished building: ../src/PowerDigitSum.c
+ 
+Building target: PowerDigitSum
+Invoking: Cross GCC Linker
+gcc  -o "PowerDigitSum"  ./src/PowerDigitSum.o   
+Finished building target: PowerDigitSum
+ 
+15:55:55 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+15:56:18 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+15:56:18 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+15:56:19 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+15:56:19 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+15:56:20 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+15:56:20 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+Building file: ../src/PowerDigitSum.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PowerDigitSum.d" -MT"src/PowerDigitSum.o" -o "src/PowerDigitSum.o" "../src/PowerDigitSum.c"
+In file included from ../src/PowerDigitSum.c:15:
+../src/../../c-library/include/addViaStrings.h:10:16: warning: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)' [-Wimplicit-function-declaration]
+        int length1 = strlen(s1);
+                      ^
+../src/../../c-library/include/addViaStrings.h:10:16: note: include the header <string.h> or explicitly provide a declaration for 'strlen'
+../src/../../c-library/include/addViaStrings.h:85:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/../../c-library/include/addViaStrings.h:89:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/PowerDigitSum.c:27:6: warning: incompatible integer to pointer conversion assigning to 'char *' from 'int' [-Wint-conversion]
+        sum = 2;
+            ^ ~
+../src/PowerDigitSum.c:24:8: warning: unused variable 's2' [-Wunused-variable]
+        char *s2 = "1";
+              ^
+../src/PowerDigitSum.c:23:8: warning: unused variable 's1' [-Wunused-variable]
+        char *s1 = "1";
+              ^
+6 warnings generated.
+Finished building: ../src/PowerDigitSum.c
+ 
+Building target: PowerDigitSum
+Invoking: Cross GCC Linker
+gcc  -o "PowerDigitSum"  ./src/PowerDigitSum.o   
+Finished building target: PowerDigitSum
+ 
+15:56:21 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+15:56:32 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+15:56:33 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+15:56:33 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+15:56:34 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+15:56:34 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+15:56:35 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+Building file: ../src/PowerDigitSum.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PowerDigitSum.d" -MT"src/PowerDigitSum.o" -o "src/PowerDigitSum.o" "../src/PowerDigitSum.c"
+In file included from ../src/PowerDigitSum.c:15:
+../src/../../c-library/include/addViaStrings.h:10:16: warning: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)' [-Wimplicit-function-declaration]
+        int length1 = strlen(s1);
+                      ^
+../src/../../c-library/include/addViaStrings.h:10:16: note: include the header <string.h> or explicitly provide a declaration for 'strlen'
+../src/../../c-library/include/addViaStrings.h:85:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/../../c-library/include/addViaStrings.h:89:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/PowerDigitSum.c:24:8: warning: unused variable 's2' [-Wunused-variable]
+        char *s2 = "1";
+              ^
+../src/PowerDigitSum.c:23:8: warning: unused variable 's1' [-Wunused-variable]
+        char *s1 = "1";
+              ^
+5 warnings generated.
+Finished building: ../src/PowerDigitSum.c
+ 
+Building target: PowerDigitSum
+Invoking: Cross GCC Linker
+gcc  -o "PowerDigitSum"  ./src/PowerDigitSum.o   
+Finished building target: PowerDigitSum
+ 
+15:56:35 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+15:59:31 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+15:59:31 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+15:59:32 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+15:59:32 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+15:59:33 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+15:59:33 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+Building file: ../src/PowerDigitSum.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PowerDigitSum.d" -MT"src/PowerDigitSum.o" -o "src/PowerDigitSum.o" "../src/PowerDigitSum.c"
+In file included from ../src/PowerDigitSum.c:15:
+../src/../../c-library/include/addViaStrings.h:10:16: warning: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)' [-Wimplicit-function-declaration]
+        int length1 = strlen(s1);
+                      ^
+../src/../../c-library/include/addViaStrings.h:10:16: note: include the header <string.h> or explicitly provide a declaration for 'strlen'
+../src/../../c-library/include/addViaStrings.h:85:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/../../c-library/include/addViaStrings.h:89:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/PowerDigitSum.c:23:8: warning: unused variable 's1' [-Wunused-variable]
+        char *s1 = "1";
+              ^
+../src/PowerDigitSum.c:24:8: warning: unused variable 's2' [-Wunused-variable]
+        char *s2 = "1";
+              ^
+5 warnings generated.
+Finished building: ../src/PowerDigitSum.c
+ 
+Building target: PowerDigitSum
+Invoking: Cross GCC Linker
+gcc  -o "PowerDigitSum"  ./src/PowerDigitSum.o   
+Finished building target: PowerDigitSum
+ 
+15:59:34 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+16:00:09 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+16:00:09 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+16:00:10 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+16:00:10 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+16:00:11 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+16:00:11 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+Building file: ../src/PowerDigitSum.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PowerDigitSum.d" -MT"src/PowerDigitSum.o" -o "src/PowerDigitSum.o" "../src/PowerDigitSum.c"
+In file included from ../src/PowerDigitSum.c:15:
+../src/../../c-library/include/addViaStrings.h:10:16: warning: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)' [-Wimplicit-function-declaration]
+        int length1 = strlen(s1);
+                      ^
+../src/../../c-library/include/addViaStrings.h:10:16: note: include the header <string.h> or explicitly provide a declaration for 'strlen'
+../src/../../c-library/include/addViaStrings.h:85:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/../../c-library/include/addViaStrings.h:89:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+3 warnings generated.
+Finished building: ../src/PowerDigitSum.c
+ 
+Building target: PowerDigitSum
+Invoking: Cross GCC Linker
+gcc  -o "PowerDigitSum"  ./src/PowerDigitSum.o   
+Finished building target: PowerDigitSum
+ 
+16:00:12 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+16:03:01 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+16:03:01 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+16:03:02 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+16:03:02 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+16:03:03 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+16:03:03 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+Building file: ../src/PowerDigitSum.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PowerDigitSum.d" -MT"src/PowerDigitSum.o" -o "src/PowerDigitSum.o" "../src/PowerDigitSum.c"
+In file included from ../src/PowerDigitSum.c:15:
+../src/../../c-library/include/addViaStrings.h:10:16: warning: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)' [-Wimplicit-function-declaration]
+        int length1 = strlen(s1);
+                      ^
+../src/../../c-library/include/addViaStrings.h:10:16: note: include the header <string.h> or explicitly provide a declaration for 'strlen'
+../src/../../c-library/include/addViaStrings.h:85:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/../../c-library/include/addViaStrings.h:89:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+3 warnings generated.
+Finished building: ../src/PowerDigitSum.c
+ 
+Building target: PowerDigitSum
+Invoking: Cross GCC Linker
+gcc  -o "PowerDigitSum"  ./src/PowerDigitSum.o   
+Finished building target: PowerDigitSum
+ 
+16:03:04 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+16:05:14 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+16:05:14 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+16:05:15 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+16:05:15 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+16:05:16 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+16:05:17 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+Building file: ../src/PowerDigitSum.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PowerDigitSum.d" -MT"src/PowerDigitSum.o" -o "src/PowerDigitSum.o" "../src/PowerDigitSum.c"
+In file included from ../src/PowerDigitSum.c:15:
+../src/../../c-library/include/addViaStrings.h:10:16: warning: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)' [-Wimplicit-function-declaration]
+        int length1 = strlen(s1);
+                      ^
+../src/../../c-library/include/addViaStrings.h:10:16: note: include the header <string.h> or explicitly provide a declaration for 'strlen'
+../src/../../c-library/include/addViaStrings.h:85:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/../../c-library/include/addViaStrings.h:89:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/PowerDigitSum.c:36:27: warning: format specifies type 'int' but the argument has type 'unsigned long long' [-Wformat]
+        printf("\nTotal = %d\n", total);
+                          ~~     ^~~~~
+                          %llu
+4 warnings generated.
+Finished building: ../src/PowerDigitSum.c
+ 
+Building target: PowerDigitSum
+Invoking: Cross GCC Linker
+gcc  -o "PowerDigitSum"  ./src/PowerDigitSum.o   
+Finished building target: PowerDigitSum
+ 
+16:05:17 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+16:06:30 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+16:06:30 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+16:06:31 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+16:06:31 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+16:06:32 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+16:06:32 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+Building file: ../src/PowerDigitSum.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PowerDigitSum.d" -MT"src/PowerDigitSum.o" -o "src/PowerDigitSum.o" "../src/PowerDigitSum.c"
+In file included from ../src/PowerDigitSum.c:15:
+../src/../../c-library/include/addViaStrings.h:10:16: warning: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)' [-Wimplicit-function-declaration]
+        int length1 = strlen(s1);
+                      ^
+../src/../../c-library/include/addViaStrings.h:10:16: note: include the header <string.h> or explicitly provide a declaration for 'strlen'
+../src/../../c-library/include/addViaStrings.h:85:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/../../c-library/include/addViaStrings.h:89:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/PowerDigitSum.c:34:27: warning: format specifies type 'int' but the argument has type 'unsigned long long' [-Wformat]
+        printf("\nTotal = %d\n", total);
+                          ~~     ^~~~~
+                          %llu
+4 warnings generated.
+Finished building: ../src/PowerDigitSum.c
+ 
+Building target: PowerDigitSum
+Invoking: Cross GCC Linker
+gcc  -o "PowerDigitSum"  ./src/PowerDigitSum.o   
+Finished building target: PowerDigitSum
+ 
+16:06:33 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+17:04:28 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+17:04:28 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+17:04:28 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+17:04:28 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+17:04:29 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+17:04:29 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+17:04:29 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+16:18:49 **** Build of configuration Debug for project AddLargeNumbers ****
+make all 
+Building file: ../src/AddLargeNumbers.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/AddLargeNumbers.d" -MT"src/AddLargeNumbers.o" -o "src/AddLargeNumbers.o" "../src/AddLargeNumbers.c"
+In file included from ../src/AddLargeNumbers.c:13:
+../src/../../c-library/include/addViaStrings.h:133:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/../../c-library/include/addViaStrings.h:137:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/AddLargeNumbers.c:20:31: warning: incompatible pointer types passing 'char (*)[51]' to parameter of type 'char *' [-Wincompatible-pointer-types]
+        char *sum = addIntsAsStrings(&s1, &s2);
+                                     ^~~
+../src/../../c-library/include/addViaStrings.h:56:30: note: passing argument to parameter 's1' here
+char* addIntsAsStrings(char *s1, char *s2){
+                             ^
+../src/AddLargeNumbers.c:20:36: warning: incompatible pointer types passing 'char (*)[51]' to parameter of type 'char *' [-Wincompatible-pointer-types]
+        char *sum = addIntsAsStrings(&s1, &s2);
+                                          ^~~
+../src/../../c-library/include/addViaStrings.h:56:40: note: passing argument to parameter 's2' here
+char* addIntsAsStrings(char *s1, char *s2){
+                                       ^
+../src/AddLargeNumbers.c:25:25: warning: incompatible pointer types passing 'char (*)[15]' to parameter of type 'char *' [-Wincompatible-pointer-types]
+        sum = addIntsAsStrings(&s3, &s4);
+                               ^~~
+../src/../../c-library/include/addViaStrings.h:56:30: note: passing argument to parameter 's1' here
+char* addIntsAsStrings(char *s1, char *s2){
+                             ^
+../src/AddLargeNumbers.c:25:30: warning: incompatible pointer types passing 'char (*)[15]' to parameter of type 'char *' [-Wincompatible-pointer-types]
+        sum = addIntsAsStrings(&s3, &s4);
+                                    ^~~
+../src/../../c-library/include/addViaStrings.h:56:40: note: passing argument to parameter 's2' here
+char* addIntsAsStrings(char *s1, char *s2){
+                                       ^
+6 warnings generated.
+Finished building: ../src/AddLargeNumbers.c
+ 
+Building target: AddLargeNumbers
+Invoking: Cross GCC Linker
+gcc  -o "AddLargeNumbers"  ./src/AddLargeNumbers.o   
+Finished building target: AddLargeNumbers
+ 
+16:18:51 **** Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+16:18:51 **** Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+16:18:51 **** Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+16:18:51 **** Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+16:18:51 **** Build of configuration Debug for project PowerDigitSum ****
+make all 
+Building file: ../src/PowerDigitSum.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PowerDigitSum.d" -MT"src/PowerDigitSum.o" -o "src/PowerDigitSum.o" "../src/PowerDigitSum.c"
+In file included from ../src/PowerDigitSum.c:15:
+../src/../../c-library/include/addViaStrings.h:133:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/../../c-library/include/addViaStrings.h:137:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/PowerDigitSum.c:34:27: warning: format specifies type 'int' but the argument has type 'unsigned long long' [-Wformat]
+        printf("\nTotal = %d\n", total);
+                          ~~     ^~~~~
+                          %llu
+3 warnings generated.
+Finished building: ../src/PowerDigitSum.c
+ 
+Building target: PowerDigitSum
+Invoking: Cross GCC Linker
+gcc  -o "PowerDigitSum"  ./src/PowerDigitSum.o   
+Finished building target: PowerDigitSum
+ 
+16:18:51 **** Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+16:19:57 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+16:19:57 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+16:19:57 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+16:19:58 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+16:19:58 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+16:19:58 **** Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+Finished building: ../src/NumberLetterCounts.c
+ 
+Building target: NumberLetterCounts
+Invoking: Cross GCC Linker
+gcc  -o "NumberLetterCounts"  ./src/NumberLetterCounts.o   
+Finished building target: NumberLetterCounts
+ 
+16:19:58 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+16:19:58 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:13:57 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:13:57 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:13:57 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:13:57 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:13:58 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:13:58 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+../src/NumberLetterCounts.c:18:19: warning: more '%' conversions than data arguments [-Wformat]
+                printf("test = %d\n");
+                               ~^
+1 warning generated.
+Finished building: ../src/NumberLetterCounts.c
+ 
+Building target: NumberLetterCounts
+Invoking: Cross GCC Linker
+gcc  -o "NumberLetterCounts"  ./src/NumberLetterCounts.o   
+Finished building target: NumberLetterCounts
+ 
+11:13:59 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:13:59 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:14:34 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:14:34 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:14:34 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:14:34 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:14:34 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:14:34 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+../src/NumberLetterCounts.c:18:19: warning: more '%' conversions than data arguments [-Wformat]
+                printf("test = %d\n");
+                               ~^
+1 warning generated.
+Finished building: ../src/NumberLetterCounts.c
+ 
+Building target: NumberLetterCounts
+Invoking: Cross GCC Linker
+gcc  -o "NumberLetterCounts"  ./src/NumberLetterCounts.o   
+Finished building target: NumberLetterCounts
+ 
+11:14:35 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:14:35 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:14:41 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:14:42 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:14:42 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:14:42 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:14:42 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:14:42 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+../src/NumberLetterCounts.c:18:19: warning: more '%' conversions than data arguments [-Wformat]
+                printf("test = %d\n");
+                               ~^
+1 warning generated.
+Finished building: ../src/NumberLetterCounts.c
+ 
+Building target: NumberLetterCounts
+Invoking: Cross GCC Linker
+gcc  -o "NumberLetterCounts"  ./src/NumberLetterCounts.o   
+Finished building target: NumberLetterCounts
+ 
+11:14:42 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:14:42 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:15:03 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:15:03 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:15:03 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:15:04 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:15:04 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:15:04 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+../src/NumberLetterCounts.c:18:19: warning: more '%' conversions than data arguments [-Wformat]
+                printf("test = %d\n");
+                               ~^
+1 warning generated.
+Finished building: ../src/NumberLetterCounts.c
+ 
+Building target: NumberLetterCounts
+Invoking: Cross GCC Linker
+gcc  -o "NumberLetterCounts"  ./src/NumberLetterCounts.o   
+Finished building target: NumberLetterCounts
+ 
+11:15:04 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:15:04 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:15:48 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:15:49 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:15:49 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:15:49 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:15:49 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:15:49 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+../src/NumberLetterCounts.c:18:19: warning: more '%' conversions than data arguments [-Wformat]
+                printf("test = %d\n");
+                               ~^
+1 warning generated.
+Finished building: ../src/NumberLetterCounts.c
+ 
+Building target: NumberLetterCounts
+Invoking: Cross GCC Linker
+gcc  -o "NumberLetterCounts"  ./src/NumberLetterCounts.o   
+Finished building target: NumberLetterCounts
+ 
+11:15:49 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:15:49 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:16:25 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:16:25 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:16:25 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:16:25 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:16:26 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:16:26 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+../src/NumberLetterCounts.c:18:19: warning: more '%' conversions than data arguments [-Wformat]
+                printf("test = %d\n");
+                               ~^
+1 warning generated.
+Finished building: ../src/NumberLetterCounts.c
+ 
+Building target: NumberLetterCounts
+Invoking: Cross GCC Linker
+gcc  -o "NumberLetterCounts"  ./src/NumberLetterCounts.o   
+Finished building target: NumberLetterCounts
+ 
+11:16:26 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:16:26 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:16:41 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:16:42 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:16:42 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:16:42 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:16:42 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:16:42 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+../src/NumberLetterCounts.c:18:19: warning: more '%' conversions than data arguments [-Wformat]
+                printf("test = %d\n");
+                               ~^
+1 warning generated.
+Finished building: ../src/NumberLetterCounts.c
+ 
+Building target: NumberLetterCounts
+Invoking: Cross GCC Linker
+gcc  -o "NumberLetterCounts"  ./src/NumberLetterCounts.o   
+Finished building target: NumberLetterCounts
+ 
+11:16:42 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:16:42 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:17:30 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:17:30 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:17:30 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:17:30 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:17:30 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:17:30 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+Finished building: ../src/NumberLetterCounts.c
+ 
+Building target: NumberLetterCounts
+Invoking: Cross GCC Linker
+gcc  -o "NumberLetterCounts"  ./src/NumberLetterCounts.o   
+Finished building target: NumberLetterCounts
+ 
+11:17:30 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:17:30 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:17:45 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:17:45 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:17:45 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:17:45 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:17:46 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:17:46 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+Finished building: ../src/NumberLetterCounts.c
+ 
+Building target: NumberLetterCounts
+Invoking: Cross GCC Linker
+gcc  -o "NumberLetterCounts"  ./src/NumberLetterCounts.o   
+Finished building target: NumberLetterCounts
+ 
+11:17:46 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:17:46 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:17:53 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:17:53 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:17:53 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:17:53 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:17:53 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:17:53 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+Finished building: ../src/NumberLetterCounts.c
+ 
+Building target: NumberLetterCounts
+Invoking: Cross GCC Linker
+gcc  -o "NumberLetterCounts"  ./src/NumberLetterCounts.o   
+Finished building target: NumberLetterCounts
+ 
+11:17:54 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:17:54 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:19:49 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:19:49 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:19:49 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:19:49 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:19:49 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:19:49 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+Finished building: ../src/NumberLetterCounts.c
+ 
+Building target: NumberLetterCounts
+Invoking: Cross GCC Linker
+gcc  -o "NumberLetterCounts"  ./src/NumberLetterCounts.o   
+Finished building target: NumberLetterCounts
+ 
+11:19:50 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:19:50 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:20:15 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:20:15 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:20:15 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:20:15 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:20:15 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:20:15 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+Finished building: ../src/NumberLetterCounts.c
+ 
+Building target: NumberLetterCounts
+Invoking: Cross GCC Linker
+gcc  -o "NumberLetterCounts"  ./src/NumberLetterCounts.o   
+Finished building target: NumberLetterCounts
+ 
+11:20:15 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:20:15 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:20:40 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:20:41 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:20:41 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:20:41 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:20:41 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:20:41 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+Finished building: ../src/NumberLetterCounts.c
+ 
+Building target: NumberLetterCounts
+Invoking: Cross GCC Linker
+gcc  -o "NumberLetterCounts"  ./src/NumberLetterCounts.o   
+Finished building target: NumberLetterCounts
+ 
+11:20:41 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:20:41 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:21:05 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:21:05 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:21:05 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:21:05 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:21:05 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:21:05 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+Finished building: ../src/NumberLetterCounts.c
+ 
+Building target: NumberLetterCounts
+Invoking: Cross GCC Linker
+gcc  -o "NumberLetterCounts"  ./src/NumberLetterCounts.o   
+Finished building target: NumberLetterCounts
+ 
+11:21:06 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:21:06 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:23:34 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:23:34 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:23:34 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:23:34 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:23:34 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:23:34 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+../src/NumberLetterCounts.c:15:13: error: function definition is not allowed here
+        int main() {
+                   ^
+1 error generated.
+make: *** [src/NumberLetterCounts.o] Error 1
+11:23:34 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:23:35 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:24:15 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:24:15 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:24:15 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:24:15 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:24:15 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:24:15 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+../src/NumberLetterCounts.c:19:17: warning: format specifies type 'int' but the argument has type 'char *' [-Wformat]
+                        printf("%c", ".");
+                                ~~   ^~~
+                                %s
+../src/NumberLetterCounts.c:15:8: warning: variable 'ch' is used uninitialized whenever function 'main' is called [-Wsometimes-uninitialized]
+                char ch;
+                ~~~~~^~
+../src/NumberLetterCounts.c:17:9: note: uninitialized use occurs here
+                while(ch !='~'){
+                      ^~
+../src/NumberLetterCounts.c:15:10: note: initialize the variable 'ch' to silence this warning
+                char ch;
+                       ^
+                        = '\0'
+../src/NumberLetterCounts.c:22:2: error: expected identifier or '('
+        return EXIT_SUCCESS;
+        ^
+../src/NumberLetterCounts.c:23:1: error: extraneous closing brace ('}')
+}
+^
+2 warnings and 2 errors generated.
+make: *** [src/NumberLetterCounts.o] Error 1
+11:24:15 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:24:16 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:25:15 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:25:15 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:25:15 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:25:15 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:25:15 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:25:15 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+../src/NumberLetterCounts.c:19:17: warning: format specifies type 'int' but the argument has type 'char *' [-Wformat]
+                        printf("%c", ".");
+                                ~~   ^~~
+                                %s
+../src/NumberLetterCounts.c:15:8: warning: variable 'ch' is used uninitialized whenever function 'main' is called [-Wsometimes-uninitialized]
+                char ch;
+                ~~~~~^~
+../src/NumberLetterCounts.c:17:9: note: uninitialized use occurs here
+                while(ch !='~'){
+                      ^~
+../src/NumberLetterCounts.c:15:10: note: initialize the variable 'ch' to silence this warning
+                char ch;
+                       ^
+                        = '\0'
+2 warnings generated.
+Finished building: ../src/NumberLetterCounts.c
+ 
+Building target: NumberLetterCounts
+Invoking: Cross GCC Linker
+gcc  -o "NumberLetterCounts"  ./src/NumberLetterCounts.o   
+Finished building target: NumberLetterCounts
+ 
+11:25:16 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:25:16 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:25:36 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:25:36 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:25:36 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:25:36 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:25:36 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:25:36 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+../src/NumberLetterCounts.c:15:8: warning: variable 'ch' is used uninitialized whenever function 'main' is called [-Wsometimes-uninitialized]
+                char ch;
+                ~~~~~^~
+../src/NumberLetterCounts.c:17:9: note: uninitialized use occurs here
+                while(ch !='~'){
+                      ^~
+../src/NumberLetterCounts.c:15:10: note: initialize the variable 'ch' to silence this warning
+                char ch;
+                       ^
+                        = '\0'
+1 warning generated.
+Finished building: ../src/NumberLetterCounts.c
+ 
+Building target: NumberLetterCounts
+Invoking: Cross GCC Linker
+gcc  -o "NumberLetterCounts"  ./src/NumberLetterCounts.o   
+Finished building target: NumberLetterCounts
+ 
+11:25:37 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:25:37 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:31:59 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:31:59 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:31:59 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:31:59 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:31:59 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:32:00 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+Finished building: ../src/NumberLetterCounts.c
+ 
+Building target: NumberLetterCounts
+Invoking: Cross GCC Linker
+gcc  -o "NumberLetterCounts"  ./src/NumberLetterCounts.o   
+Finished building target: NumberLetterCounts
+ 
+11:32:00 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:32:00 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:32:09 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:32:09 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:32:09 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:32:09 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:32:09 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:32:10 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+make: Nothing to be done for `all'.
+11:32:10 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:32:10 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:32:13 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:32:13 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:32:14 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:32:14 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:32:14 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:32:14 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+make: Nothing to be done for `all'.
+11:32:14 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:32:14 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:33:25 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:33:25 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:33:25 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:33:25 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:33:26 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:33:26 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+Finished building: ../src/NumberLetterCounts.c
+ 
+Building target: NumberLetterCounts
+Invoking: Cross GCC Linker
+gcc  -o "NumberLetterCounts"  ./src/NumberLetterCounts.o   
+Finished building target: NumberLetterCounts
+ 
+11:33:26 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:33:26 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:34:51 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:34:51 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:34:51 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:34:51 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:34:52 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:34:52 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+Finished building: ../src/NumberLetterCounts.c
+ 
+Building target: NumberLetterCounts
+Invoking: Cross GCC Linker
+gcc  -o "NumberLetterCounts"  ./src/NumberLetterCounts.o   
+Finished building target: NumberLetterCounts
+ 
+11:34:52 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:34:52 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:35:59 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:35:59 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:35:59 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:35:59 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:35:59 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:36:00 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+Finished building: ../src/NumberLetterCounts.c
+ 
+Building target: NumberLetterCounts
+Invoking: Cross GCC Linker
+gcc  -o "NumberLetterCounts"  ./src/NumberLetterCounts.o   
+Finished building target: NumberLetterCounts
+ 
+11:36:00 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:36:00 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:36:26 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:36:26 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:36:26 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:36:26 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:36:27 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:36:27 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+Finished building: ../src/NumberLetterCounts.c
+ 
+Building target: NumberLetterCounts
+Invoking: Cross GCC Linker
+gcc  -o "NumberLetterCounts"  ./src/NumberLetterCounts.o   
+Finished building target: NumberLetterCounts
+ 
+11:36:27 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:36:27 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:36:43 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:36:43 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:36:44 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:36:44 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:36:44 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:36:44 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+Finished building: ../src/NumberLetterCounts.c
+ 
+Building target: NumberLetterCounts
+Invoking: Cross GCC Linker
+gcc  -o "NumberLetterCounts"  ./src/NumberLetterCounts.o   
+Finished building target: NumberLetterCounts
+ 
+11:36:44 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:36:44 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:37:05 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:37:05 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:37:06 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:37:06 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:37:06 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:37:06 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+Finished building: ../src/NumberLetterCounts.c
+ 
+Building target: NumberLetterCounts
+Invoking: Cross GCC Linker
+gcc  -o "NumberLetterCounts"  ./src/NumberLetterCounts.o   
+Finished building target: NumberLetterCounts
+ 
+11:37:06 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:37:06 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:37:26 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:37:26 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:37:26 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:37:26 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:37:26 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:37:27 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+Finished building: ../src/NumberLetterCounts.c
+ 
+Building target: NumberLetterCounts
+Invoking: Cross GCC Linker
+gcc  -o "NumberLetterCounts"  ./src/NumberLetterCounts.o   
+Finished building target: NumberLetterCounts
+ 
+11:37:27 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:37:27 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:37:50 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:37:50 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:37:50 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:37:50 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:37:50 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:37:50 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+Finished building: ../src/NumberLetterCounts.c
+ 
+Building target: NumberLetterCounts
+Invoking: Cross GCC Linker
+gcc  -o "NumberLetterCounts"  ./src/NumberLetterCounts.o   
+Finished building target: NumberLetterCounts
+ 
+11:37:51 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:37:51 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:38:28 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:38:28 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:38:28 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:38:28 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:38:28 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:38:28 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+Finished building: ../src/NumberLetterCounts.c
+ 
+Building target: NumberLetterCounts
+Invoking: Cross GCC Linker
+gcc  -o "NumberLetterCounts"  ./src/NumberLetterCounts.o   
+Finished building target: NumberLetterCounts
+ 
+11:38:29 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:38:29 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:39:07 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:39:07 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:39:07 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:39:07 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:39:07 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:39:07 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+../src/NumberLetterCounts.c:33:23: warning: data argument not used by format string [-Wformat-extra-args]
+                printf("(%d)\n", i, alpha);
+                       ~~~~~~~~     ^
+1 warning generated.
+Finished building: ../src/NumberLetterCounts.c
+ 
+Building target: NumberLetterCounts
+Invoking: Cross GCC Linker
+gcc  -o "NumberLetterCounts"  ./src/NumberLetterCounts.o   
+Finished building target: NumberLetterCounts
+ 
+11:39:07 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:39:08 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:40:02 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:40:02 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:40:02 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:40:03 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:40:03 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:40:03 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+../src/NumberLetterCounts.c:35:23: warning: data argument not used by format string [-Wformat-extra-args]
+                printf("(%d)\n", i, alpha);
+                       ~~~~~~~~     ^
+1 warning generated.
+Finished building: ../src/NumberLetterCounts.c
+ 
+Building target: NumberLetterCounts
+Invoking: Cross GCC Linker
+gcc  -o "NumberLetterCounts"  ./src/NumberLetterCounts.o   
+Finished building target: NumberLetterCounts
+ 
+11:40:03 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:40:03 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:40:17 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:40:17 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:40:17 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:40:17 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:40:18 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:40:18 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+../src/NumberLetterCounts.c:35:23: warning: data argument not used by format string [-Wformat-extra-args]
+                printf("(%d)\n", i, alpha);
+                       ~~~~~~~~     ^
+1 warning generated.
+Finished building: ../src/NumberLetterCounts.c
+ 
+Building target: NumberLetterCounts
+Invoking: Cross GCC Linker
+gcc  -o "NumberLetterCounts"  ./src/NumberLetterCounts.o   
+Finished building target: NumberLetterCounts
+ 
+11:40:18 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:40:18 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:40:34 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:40:34 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:40:34 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:40:34 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:40:34 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:40:35 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+../src/NumberLetterCounts.c:35:23: warning: data argument not used by format string [-Wformat-extra-args]
+                printf("(%d)\n", i, alpha);
+                       ~~~~~~~~     ^
+../src/NumberLetterCounts.c:36:9: warning: implicit conversion from 'double' to 'unsigned int' changes value from 0.1 to 0 [-Wliteral-conversion]
+                sleep(0.1);
+                ~~~~~ ^~~
+2 warnings generated.
+Finished building: ../src/NumberLetterCounts.c
+ 
+Building target: NumberLetterCounts
+Invoking: Cross GCC Linker
+gcc  -o "NumberLetterCounts"  ./src/NumberLetterCounts.o   
+Finished building target: NumberLetterCounts
+ 
+11:40:35 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:40:35 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:40:47 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:40:47 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:40:47 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:40:47 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:40:47 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:40:47 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+../src/NumberLetterCounts.c:35:23: warning: data argument not used by format string [-Wformat-extra-args]
+                printf("(%d)\n", i, alpha);
+                       ~~~~~~~~     ^
+../src/NumberLetterCounts.c:36:9: warning: implicit conversion from 'double' to 'unsigned int' changes value from 0.5 to 0 [-Wliteral-conversion]
+                sleep(0.5);
+                ~~~~~ ^~~
+2 warnings generated.
+Finished building: ../src/NumberLetterCounts.c
+ 
+Building target: NumberLetterCounts
+Invoking: Cross GCC Linker
+gcc  -o "NumberLetterCounts"  ./src/NumberLetterCounts.o   
+Finished building target: NumberLetterCounts
+ 
+11:40:48 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:40:48 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:42:06 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:42:06 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:42:06 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:42:06 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:42:06 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:42:06 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+../src/NumberLetterCounts.c:35:23: warning: data argument not used by format string [-Wformat-extra-args]
+                printf("(%d)\n", i, alpha);
+                       ~~~~~~~~     ^
+../src/NumberLetterCounts.c:36:17: error: too few arguments to function call, expected 2, have 1
+                nanosleep(1000);
+                ~~~~~~~~~     ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/time.h:141:1: note: 'nanosleep' declared here
+int nanosleep(const struct timespec *__rqtp, struct timespec *__rmtp) __DARWIN_ALIAS_C(nanosleep);
+^
+1 warning and 1 error generated.
+make: *** [src/NumberLetterCounts.o] Error 1
+11:42:06 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:42:06 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:43:46 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:43:46 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:43:46 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:43:46 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:43:46 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:43:46 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+../src/NumberLetterCounts.c:35:23: warning: data argument not used by format string [-Wformat-extra-args]
+                printf("(%d)\n", i, alpha);
+                       ~~~~~~~~     ^
+../src/NumberLetterCounts.c:36:13: warning: incompatible integer to pointer conversion passing 'int' to parameter of type 'const struct timespec *' [-Wint-conversion]
+                nanosleep(1000, 1000);
+                          ^~~~
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/time.h:141:38: note: passing argument to parameter '__rqtp' here
+int nanosleep(const struct timespec *__rqtp, struct timespec *__rmtp) __DARWIN_ALIAS_C(nanosleep);
+                                     ^
+../src/NumberLetterCounts.c:36:19: warning: incompatible integer to pointer conversion passing 'int' to parameter of type 'struct timespec *' [-Wint-conversion]
+                nanosleep(1000, 1000);
+                                ^~~~
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/time.h:141:63: note: passing argument to parameter '__rmtp' here
+int nanosleep(const struct timespec *__rqtp, struct timespec *__rmtp) __DARWIN_ALIAS_C(nanosleep);
+                                                              ^
+3 warnings generated.
+Finished building: ../src/NumberLetterCounts.c
+ 
+Building target: NumberLetterCounts
+Invoking: Cross GCC Linker
+gcc  -o "NumberLetterCounts"  ./src/NumberLetterCounts.o   
+Finished building target: NumberLetterCounts
+ 
+11:43:47 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:43:47 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:44:54 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:44:54 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:44:54 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:44:54 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:44:54 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:44:55 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+../src/NumberLetterCounts.c:20:8: error: redefinition of 'timespec'
+struct timespec {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/sys/_types/_timespec.h:33:1: note: previous definition is here
+_STRUCT_TIMESPEC
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/sys/_types/_timespec.h:29:33: note: expanded from macro '_STRUCT_TIMESPEC'
+#define _STRUCT_TIMESPEC        struct timespec
+                                       ^
+../src/NumberLetterCounts.c:40:23: warning: data argument not used by format string [-Wformat-extra-args]
+                printf("(%d)\n", i, alpha);
+                       ~~~~~~~~     ^
+1 warning and 1 error generated.
+make: *** [src/NumberLetterCounts.o] Error 1
+11:44:55 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:44:55 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:45:08 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:45:08 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:45:08 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:45:08 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:45:08 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:45:08 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+../src/NumberLetterCounts.c:40:23: warning: data argument not used by format string [-Wformat-extra-args]
+                printf("(%d)\n", i, alpha);
+                       ~~~~~~~~     ^
+1 warning generated.
+Finished building: ../src/NumberLetterCounts.c
+ 
+Building target: NumberLetterCounts
+Invoking: Cross GCC Linker
+gcc  -o "NumberLetterCounts"  ./src/NumberLetterCounts.o   
+Finished building target: NumberLetterCounts
+ 
+11:45:09 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:45:09 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:45:28 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:45:28 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:45:28 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:45:28 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:45:28 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:45:28 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+../src/NumberLetterCounts.c:40:23: warning: data argument not used by format string [-Wformat-extra-args]
+                printf("(%d)\n", i, alpha);
+                       ~~~~~~~~     ^
+1 warning generated.
+Finished building: ../src/NumberLetterCounts.c
+ 
+Building target: NumberLetterCounts
+Invoking: Cross GCC Linker
+gcc  -o "NumberLetterCounts"  ./src/NumberLetterCounts.o   
+Finished building target: NumberLetterCounts
+ 
+11:45:28 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:45:29 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+11:45:48 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+11:45:48 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+11:45:48 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+11:45:49 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+11:45:49 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+11:45:49 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+../src/NumberLetterCounts.c:41:23: warning: data argument not used by format string [-Wformat-extra-args]
+                printf("(%d)\n", i, alpha);
+                       ~~~~~~~~     ^
+1 warning generated.
+Finished building: ../src/NumberLetterCounts.c
+ 
+Building target: NumberLetterCounts
+Invoking: Cross GCC Linker
+gcc  -o "NumberLetterCounts"  ./src/NumberLetterCounts.o   
+Finished building target: NumberLetterCounts
+ 
+11:45:49 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+11:45:49 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+15:00:13 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+15:00:13 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+15:00:14 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+15:00:14 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+15:00:14 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+15:00:14 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+../src/NumberLetterCounts.c:29:2: error: expected 'while' in do/while loop
+        } while(c)
+        ^
+../src/NumberLetterCounts.c:28:2: note: to match this 'do'
+        do { printf("%c", c); }
+        ^
+1 error generated.
+make: *** [src/NumberLetterCounts.o] Error 1
+15:00:14 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+15:00:14 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+15:57:11 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+15:57:11 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+15:57:11 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+15:57:11 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+15:57:12 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+15:57:12 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+../src/NumberLetterCounts.c:24:2: warning: implicit declaration of function 'put' is invalid in C99 [-Wimplicit-function-declaration]
+        put(j);
+        ^
+1 warning generated.
+Finished building: ../src/NumberLetterCounts.c
+ 
+Building target: NumberLetterCounts
+Invoking: Cross GCC Linker
+gcc  -o "NumberLetterCounts"  ./src/NumberLetterCounts.o   
+Undefined symbols for architecture x86_64:
+  "_put", referenced from:
+      _main in NumberLetterCounts.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [NumberLetterCounts] Error 1
+15:57:12 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+15:57:12 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+15:57:33 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+15:57:33 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+15:57:33 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+15:57:33 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+15:57:33 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+15:57:33 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+Finished building: ../src/NumberLetterCounts.c
+ 
+Building target: NumberLetterCounts
+Invoking: Cross GCC Linker
+gcc  -o "NumberLetterCounts"  ./src/NumberLetterCounts.o   
+Finished building target: NumberLetterCounts
+ 
+15:57:34 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+15:57:34 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+15:58:52 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+15:58:52 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+15:58:52 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+15:58:53 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+15:58:53 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+15:58:53 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+../src/NumberLetterCounts.c:28:5: error: conflicting types for 'testfunc'
+int testfunc(char i){ return i+1; }
+    ^
+../src/NumberLetterCounts.c:19:5: note: previous declaration is here
+int testfunc(int i);
+    ^
+1 error generated.
+make: *** [src/NumberLetterCounts.o] Error 1
+15:58:53 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+15:58:53 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+15:59:02 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+15:59:03 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+15:59:03 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+15:59:03 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+15:59:03 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+15:59:03 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+../src/NumberLetterCounts.c:28:6: error: conflicting types for 'testfunc'
+char testfunc(char i){ return i+1; }
+     ^
+../src/NumberLetterCounts.c:19:5: note: previous declaration is here
+int testfunc(int i);
+    ^
+1 error generated.
+make: *** [src/NumberLetterCounts.o] Error 1
+15:59:03 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+15:59:03 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+15:59:06 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+15:59:07 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+15:59:07 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+15:59:07 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+15:59:07 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+15:59:07 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+../src/NumberLetterCounts.c:28:6: error: conflicting types for 'testfunc'
+char testfunc(char i){ return i+1; }
+     ^
+../src/NumberLetterCounts.c:19:6: note: previous declaration is here
+char testfunc(int i);
+     ^
+1 error generated.
+make: *** [src/NumberLetterCounts.o] Error 1
+15:59:07 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+15:59:07 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+15:59:21 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+15:59:21 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+15:59:21 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+15:59:21 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+15:59:21 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+15:59:21 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+Finished building: ../src/NumberLetterCounts.c
+ 
+Building target: NumberLetterCounts
+Invoking: Cross GCC Linker
+gcc  -o "NumberLetterCounts"  ./src/NumberLetterCounts.o   
+Finished building target: NumberLetterCounts
+ 
+15:59:22 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+15:59:22 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+16:02:28 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+16:02:29 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+16:02:29 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+16:02:29 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+16:02:29 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+16:02:29 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+../src/NumberLetterCounts.c:22:7: error: array initializer must be an initializer list or string literal
+        char j[] = 'ABCD';
+             ^
+../src/NumberLetterCounts.c:29:24: error: expected ')'
+char[] testfunc(char[] i){
+                       ^
+../src/NumberLetterCounts.c:29:16: note: to match this '('
+char[] testfunc(char[] i){
+               ^
+../src/NumberLetterCounts.c:29:26: error: brackets are not allowed here; to declare an array, place the brackets after the identifier
+char[] testfunc(char[] i){
+    ~~                   ^
+                         []
+../src/NumberLetterCounts.c:29:16: error: function cannot return array type 'char []'
+char[] testfunc(char[] i){
+               ^
+../src/NumberLetterCounts.c:29:21: error: parameter name omitted
+char[] testfunc(char[] i){
+                    ^
+../src/NumberLetterCounts.c:30:7: error: use of undeclared identifier 'k'
+        for (k=0; k<strlen(i); k++){
+             ^
+../src/NumberLetterCounts.c:30:14: warning: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)' [-Wimplicit-function-declaration]
+        for (k=0; k<strlen(i); k++){
+                    ^
+../src/NumberLetterCounts.c:30:14: note: include the header <string.h> or explicitly provide a declaration for 'strlen'
+../src/NumberLetterCounts.c:30:21: error: use of undeclared identifier 'i'
+        for (k=0; k<strlen(i); k++){
+                           ^
+../src/NumberLetterCounts.c:30:12: error: use of undeclared identifier 'k'
+        for (k=0; k<strlen(i); k++){
+                  ^
+../src/NumberLetterCounts.c:30:25: error: use of undeclared identifier 'k'
+        for (k=0; k<strlen(i); k++){
+                               ^
+../src/NumberLetterCounts.c:31:3: error: use of undeclared identifier 'i'
+                i[k] += 1;
+                ^
+../src/NumberLetterCounts.c:31:5: error: use of undeclared identifier 'k'
+                i[k] += 1;
+                  ^
+../src/NumberLetterCounts.c:33:9: error: use of undeclared identifier 'i'
+        return i;
+               ^
+1 warning and 12 errors generated.
+make: *** [src/NumberLetterCounts.o] Error 1
+16:02:29 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+16:02:29 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.
+16:02:40 **** Incremental Build of configuration Debug for project AddLargeNumbers ****
+make all 
+make: Nothing to be done for `all'.
+16:02:40 **** Incremental Build of configuration Debug for project HighlyDivisibleTriangularNumber ****
+make all 
+make: Nothing to be done for `all'.
+16:02:40 **** Incremental Build of configuration Debug for project LargeSum ****
+make all 
+make: Nothing to be done for `all'.
+16:02:40 **** Incremental Build of configuration Debug for project LatticePaths ****
+make all 
+make: Nothing to be done for `all'.
+16:02:40 **** Incremental Build of configuration Debug for project LongestCollatzSequence ****
+make all 
+make: Nothing to be done for `all'.
+16:02:41 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+../src/NumberLetterCounts.c:19:24: error: expected ')'
+char[] testfunc(char[] i);
+                       ^
+../src/NumberLetterCounts.c:19:16: note: to match this '('
+char[] testfunc(char[] i);
+               ^
+../src/NumberLetterCounts.c:19:26: error: brackets are not allowed here; to declare an array, place the brackets after the identifier
+char[] testfunc(char[] i);
+    ~~                   ^
+                         []
+../src/NumberLetterCounts.c:19:16: error: function cannot return array type 'char []'
+char[] testfunc(char[] i);
+               ^
+../src/NumberLetterCounts.c:22:7: error: array initializer must be an initializer list or string literal
+        char j[] = 'ABCD';
+             ^
+../src/NumberLetterCounts.c:29:24: error: expected ')'
+char[] testfunc(char[] i){
+                       ^
+../src/NumberLetterCounts.c:29:16: note: to match this '('
+char[] testfunc(char[] i){
+               ^
+../src/NumberLetterCounts.c:29:26: error: brackets are not allowed here; to declare an array, place the brackets after the identifier
+char[] testfunc(char[] i){
+    ~~                   ^
+                         []
+../src/NumberLetterCounts.c:29:16: error: function cannot return array type 'char []'
+char[] testfunc(char[] i){
+               ^
+../src/NumberLetterCounts.c:29:21: error: parameter name omitted
+char[] testfunc(char[] i){
+                    ^
+../src/NumberLetterCounts.c:30:7: error: use of undeclared identifier 'k'
+        for (k=0; k<strlen(i); k++){
+             ^
+../src/NumberLetterCounts.c:30:14: warning: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)' [-Wimplicit-function-declaration]
+        for (k=0; k<strlen(i); k++){
+                    ^
+../src/NumberLetterCounts.c:30:14: note: include the header <string.h> or explicitly provide a declaration for 'strlen'
+../src/NumberLetterCounts.c:30:21: error: use of undeclared identifier 'i'
+        for (k=0; k<strlen(i); k++){
+                           ^
+../src/NumberLetterCounts.c:30:12: error: use of undeclared identifier 'k'
+        for (k=0; k<strlen(i); k++){
+                  ^
+../src/NumberLetterCounts.c:30:25: error: use of undeclared identifier 'k'
+        for (k=0; k<strlen(i); k++){
+                               ^
+../src/NumberLetterCounts.c:31:3: error: use of undeclared identifier 'i'
+                i[k] += 1;
+                ^
+../src/NumberLetterCounts.c:31:5: error: use of undeclared identifier 'k'
+                i[k] += 1;
+                  ^
+../src/NumberLetterCounts.c:33:9: error: use of undeclared identifier 'i'
+        return i;
+               ^
+1 warning and 15 errors generated.
+make: *** [src/NumberLetterCounts.o] Error 1
+16:02:41 **** Incremental Build of configuration Debug for project PowerDigitSum ****
+make all 
+make: Nothing to be done for `all'.
+16:02:41 **** Incremental Build of configuration Debug for project c-library ****
+make all 
+make: Nothing to be done for `all'.

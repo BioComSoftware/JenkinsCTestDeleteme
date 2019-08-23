@@ -1,0 +1,67 @@
+16:02:41 **** Incremental Build of configuration Debug for project NumberLetterCounts ****
+make all 
+Building file: ../src/NumberLetterCounts.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumberLetterCounts.d" -MT"src/NumberLetterCounts.o" -o "src/NumberLetterCounts.o" "../src/NumberLetterCounts.c"
+../src/NumberLetterCounts.c:19:24: error: expected ')'
+char[] testfunc(char[] i);
+                       ^
+../src/NumberLetterCounts.c:19:16: note: to match this '('
+char[] testfunc(char[] i);
+               ^
+../src/NumberLetterCounts.c:19:26: error: brackets are not allowed here; to declare an array, place the brackets after the identifier
+char[] testfunc(char[] i);
+    ~~                   ^
+                         []
+../src/NumberLetterCounts.c:19:16: error: function cannot return array type 'char []'
+char[] testfunc(char[] i);
+               ^
+../src/NumberLetterCounts.c:22:7: error: array initializer must be an initializer list or string literal
+        char j[] = 'ABCD';
+             ^
+../src/NumberLetterCounts.c:29:24: error: expected ')'
+char[] testfunc(char[] i){
+                       ^
+../src/NumberLetterCounts.c:29:16: note: to match this '('
+char[] testfunc(char[] i){
+               ^
+../src/NumberLetterCounts.c:29:26: error: brackets are not allowed here; to declare an array, place the brackets after the identifier
+char[] testfunc(char[] i){
+    ~~                   ^
+                         []
+../src/NumberLetterCounts.c:29:16: error: function cannot return array type 'char []'
+char[] testfunc(char[] i){
+               ^
+../src/NumberLetterCounts.c:29:21: error: parameter name omitted
+char[] testfunc(char[] i){
+                    ^
+../src/NumberLetterCounts.c:30:7: error: use of undeclared identifier 'k'
+        for (k=0; k<strlen(i); k++){
+             ^
+../src/NumberLetterCounts.c:30:14: warning: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)' [-Wimplicit-function-declaration]
+        for (k=0; k<strlen(i); k++){
+                    ^
+../src/NumberLetterCounts.c:30:14: note: include the header <string.h> or explicitly provide a declaration for 'strlen'
+../src/NumberLetterCounts.c:30:21: error: use of undeclared identifier 'i'
+        for (k=0; k<strlen(i); k++){
+                           ^
+../src/NumberLetterCounts.c:30:12: error: use of undeclared identifier 'k'
+        for (k=0; k<strlen(i); k++){
+                  ^
+../src/NumberLetterCounts.c:30:25: error: use of undeclared identifier 'k'
+        for (k=0; k<strlen(i); k++){
+                               ^
+../src/NumberLetterCounts.c:31:3: error: use of undeclared identifier 'i'
+                i[k] += 1;
+                ^
+../src/NumberLetterCounts.c:31:5: error: use of undeclared identifier 'k'
+                i[k] += 1;
+                  ^
+../src/NumberLetterCounts.c:33:9: error: use of undeclared identifier 'i'
+        return i;
+               ^
+1 warning and 15 errors generated.
+make: *** [src/NumberLetterCounts.o] Error 1
+
+16:02:41 Build Finished (took 126ms)
+

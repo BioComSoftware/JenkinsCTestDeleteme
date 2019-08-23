@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value=" " key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value=" "/>
+			<item value="sumArrayLen"/>
+			<item value="addendArrayLen"/>
+			<item value="addNumericStrings"/>
+			<item value="numOfDigits"/>
+			<item value="addend1"/>
+			<item value="maxlength"/>
+			<item value="addendArryLen"/>
+			<item value="sum[maxlength + 1]"/>
+			<item value="malloc"/>
+			<item value="sumsize"/>
+			<item value="sum"/>
+			<item value="addViaString"/>
+			<item value="rightBufferString"/>
+			<item value="long long"/>
+		</list>
+		<list key="replacehistory">
+			<item value=" "/>
+			<item value="addIntsAsStrings"/>
+			<item value="addendDigits"/>
+			<item value="addend2"/>
+			<item value="digitLength"/>
+			<item value="addendArrayLen"/>
+			<item value="*sum"/>
+			<item value="addNumericStrings"/>
+			<item value="leftPad"/>
+			<item value="unsigned long long int"/>
+			<item value="long long"/>
+			<item value="uint64_t"/>
+			<item value="neg_diag"/>
+			<item value="comps"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="290" key="DIALOG_WIDTH"/>
+		<item value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
+		<item value="409" key="DIALOG_HEIGHT"/>
+		<item value="32" key="DIALOG_X_ORIGIN"/>
+		<item value="375" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>
